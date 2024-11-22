@@ -6,10 +6,10 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.dispatcher import FSMContext
 import asyncio
 from crud_functions import get_all_products
+from api import api_1
 
 
-
-api = "  "
+api = api_1
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
