@@ -6,7 +6,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.dispatcher import FSMContext
 import asyncio
 from apies import UrbanBotDen_2
-from keyboards_d_3 import product_kb
+from keyboards import product_kb
 from admin_d_3 import *
 from db_d_3 import *
 from crud_functions import get_all_products
